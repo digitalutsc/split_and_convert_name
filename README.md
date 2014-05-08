@@ -1,4 +1,4 @@
-convert_name
+Split and Convert Name
 ============
 To split XML for Heritage:
 
