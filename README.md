@@ -7,7 +7,7 @@ To split XML for Heritage:
 - Open Terminal
 - Navigate to Desktop: cd Desktop/
 - Navigate to the directory that the XML is in: cd [name of folder]
-- Run the xml_split command AND the name of XML file to be split: xml_split-5.12 [name of file]
+- Run the xml_split command AND the name of XML file to be split: <em>xml_split-5.12 [name of file]<em>
 - Once it's split, check to make sure that all the files are there; remove any files that are not required
 - Do not close Terminal!
 
