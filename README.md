@@ -11,19 +11,16 @@ To split XML for Heritage:
 - Once it's split, check to make sure that all the files are there; remove any files that are not required
 - Do not close Terminal!
 
-Tag Fixes
+<b>Tag Fixes</b>
 
-Add in the following lines:
+<em>Add in the following lines:</em>
 
 <!DOCTYPE rdf:RDF SYSTEM "http://dublincore.org/documents/2001/04/11/dcmes-xml/dcmes-xml-dtd.dtd">
 <oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
 
 </oai_dc:dc>
 
-Remove the following tags:
-
-Open Sublime
-Edit -> Find and Replace
+<em>Remove the following tags:</em>
 
 <rdf:RDF … >
 <rdf:Description … >
@@ -31,7 +28,7 @@ Edit -> Find and Replace
  </rdf:Description>
  </rdf:RDF>
 
-To rename XML for Heritage:
+<b>To rename XML for Heritage:</b>
 
 - Keep Terminal open!
 - Copy convert_name.sh to folder with metadata file
@@ -41,7 +38,7 @@ To rename XML for Heritage:
 - Terminal will indicate which files were not renamed - double-check to make sure it's okay
 
 
-NOTES:
+<b>NOTES:</b>
 
 - Using the tab key will autofill the name of the directory
 - All commands are case sensitive (including directory names!)
