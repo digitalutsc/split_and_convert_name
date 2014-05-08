@@ -35,7 +35,7 @@ To rename XML for Heritage:
 
 - Keep Terminal open!
 - Copy convert_name.sh to folder with metadata file
--  Ensure that you're still navigated to the proper directory (Desktop/ > [name of folder])
+- Ensure that you're still navigated to the proper directory (Desktop/ > [name of folder])
 - Run convert_name script: ./convert_name.sh
 - Check the make sure that everything's renamed properly
 - Terminal will indicate which files were not renamed - double-check to make sure it's okay
