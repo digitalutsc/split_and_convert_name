@@ -12,11 +12,11 @@ Split XML:
 
 Change Name
 -----------
-**This script rewrites the file name to match the contents of one of the metadata elements in the file**
+**This script rewrites the file name to match the contents of one of the metadata elements in the XML file - we make the MODS Identifier field equal to the name of the digital file**
 
 Edit convert_name.sh:
 - In a text editor, change <code>ls 2013*-*.xml</code> to <code>ls [first bit of your file names - ie. "utsc"] *-*.xml</code>
-- Depending on the XML schema, you might need to change <code>grep 'identifier'</code> to match your identifier
+- Depending on the XML schema, you might need to change <code>grep 'identifier'</code> to match the name of your identifier field (i.e. dc:identifier)
 
 Run:
 - Copy convert_name.sh to folder with metadata file
