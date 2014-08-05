@@ -1,50 +1,28 @@
-Split and Convert Name
+Split XML Files and Change Name
 ============
-To split XML for Heritage:
 
-- Export XML from CONTENTdm (Export > XML > Standard Dublin Core XML)
-- Put XML into an empty directory on Desktop (name whatever)
-- Open Terminal
-- Navigate to Desktop: cd Desktop/
-- Navigate to the directory that the XML is in: cd [name of folder]
-- Run the xml_split command AND the name of XML file to be split: <em>xml_split-5.12 [name of file]<em>
-- Once it's split, check to make sure that all the files are there; remove any files that are not required
-- Do not close Terminal!
+Split XML:
+----------
 
-<b>Tag Fixes</b>
+- Download and install [XML::Twig](http://search.cpan.org/~mirod/XML-Twig-3.48/Twig.pm)
+- Run the xml_split command: <code>xml_split-5.12 [name of file]</code>
+- Once it's split, check to make sure that all the files are there
 
-<em>Add in the following lines:</em>
 
-<!DOCTYPE rdf:RDF SYSTEM "http://dublincore.org/documents/2001/04/11/dcmes-xml/dcmes-xml-dtd.dtd">
-<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+Change Name
+-----------
+**This script rewrites the file name to match the contents of one of the metadata elements in the file**
 
-</oai_dc:dc>
+Edit convert_name.sh:
+- In a text editor, change <code>ls 2013*-*.xml</code> to <code>ls [first bit of your file names - ie. "utsc"] *-*.xml</code>
+- Depending on the XML schema, you might need to change <code>grep 'identifier'</code> to match your identifier
 
-<em>Remove the following tags:</em>
-
-<rdf:RDF … >
-<rdf:Description … >
-
- </rdf:Description>
- </rdf:RDF>
-
-<b>To rename XML for Heritage:</b>
-
-- Keep Terminal open!
+Run:
 - Copy convert_name.sh to folder with metadata file
-- Ensure that you're still navigated to the proper directory (Desktop/ > [name of folder])
-- Run convert_name script: ./convert_name.sh
+- Run <code>convert_name script: ./convert_name.sh</code>
 - Check the make sure that everything's renamed properly
-- Terminal will indicate which files were not renamed - double-check to make sure it's okay
 
 
-<b>NOTES:</b>
-
-- Using the tab key will autofill the name of the directory
-- All commands are case sensitive (including directory names!)
-- To navigate to a directory, use the Change Directory command: cd
-- To list all of the directories in a location, use the list command: ls
-- List of Apple OS X commands: http://ss64.com/osx/
 
 - When renaming, if the Terminal responds "ls: 2013*-*.xml: No such file or directory" - open the bash script in TextWrangler and make the following change:
 
