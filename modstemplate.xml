@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Sample title</title>
+  </titleInfo>
+  <name>
+    <namePart>Company name</namePart>
+    <role>
+     <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <genre>Image</genre>
+  <subject>
+    <topic>Topic 1</topic>
+    <topic>Topic 2</topic>
+    <topic>Topic 3</topic>
+  </subject>
+  <note>Description</note>
+  <originInfo>
+    <publisher>Publisher name</publisher>
+  </originInfo>
+  <originInfo>
+    <dateCreated>Date</dateCreated>
+  </originInfo>
+  <physicalDescription>
+    <extent>Size</extent>
+  </physicalDescription>
+  <identifier type="local">Digital file name</identifier>
+  <language>
+    <languageTerm type="text">Language</languageTerm>
+  </language>
+  <accessCondition>Rights statement</accessCondition>
+</mods>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Sample title</title>
+  </titleInfo>
+  <name>
+    <namePart>Company name</namePart>
+    <role>
+     <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <genre>Image</genre>
+  <subject>
+    <topic>Topic 1</topic>
+    <topic>Topic 2</topic>
+    <topic>Topic 3</topic>
+  </subject>
+  <note>Description</note>
+  <originInfo>
+    <publisher>Publisher name</publisher>
+  </originInfo>
+  <originInfo>
+    <dateCreated>Date</dateCreated>
+  </originInfo>
+  <physicalDescription>
+    <extent>Size</extent>
+  </physicalDescription>
+  <identifier type="local">Digital file name</identifier>
+  <language>
+    <languageTerm type="text">Language</languageTerm>
+  </language>
+  <accessCondition>Rights statement</accessCondition>
+</mods>
+
+
+</modsCollection>
