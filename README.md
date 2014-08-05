@@ -1,4 +1,4 @@
-Split XML:
+1. Split XML:
 ----------
 
 - Ensure that your MODSXML is valid
@@ -7,7 +7,7 @@ Split XML:
 - Once it's split, check to make sure that all the files are there
 
 
-Change Name:
+2. Change Name:
 -----------
 **This script rewrites the file name to match the contents of one of the metadata elements in the XML file - we make the MODS Identifier field equal to the name of the digital file**
 
