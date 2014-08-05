@@ -4,8 +4,9 @@ Split XML Files and Change Name
 Split XML:
 ----------
 
+- Ensure that your MODSXML is valid
 - Download and install [XML::Twig](http://search.cpan.org/~mirod/XML-Twig-3.48/Twig.pm)
-- Run the xml_split command: <code>xml_split-5.12 [name of file]</code>
+- Run the xml_split command: <code>xml_split [name of file]</code>
 - Once it's split, check to make sure that all the files are there
 
 
