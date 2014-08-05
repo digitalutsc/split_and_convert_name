@@ -1,6 +1,3 @@
-Split XML Files and Change Name
-============
-
 Split XML:
 ----------
 
@@ -10,7 +7,7 @@ Split XML:
 - Once it's split, check to make sure that all the files are there
 
 
-Change Name
+Change Name:
 -----------
 **This script rewrites the file name to match the contents of one of the metadata elements in the XML file - we make the MODS Identifier field equal to the name of the digital file**
 
